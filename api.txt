@@ -1,0 +1,20 @@
+Hospital Page
+1. POST for login   (AuthContext.js)
+2. GET for getting hospital details     (Request.js)
+3. POST for requesting for blood units in hospitals page    (Request.js)
+4. GET for getting blood rates as per components    (Request.js)
+5. GET for getting pending blood requests   (Status.js)
+6. GET for getting all the pending blood requests as per request id, into request card. and handle pending click    (Status.js,RequestCard.js)
+7. GET for getting successful blood requests    (Status.js)
+8. GET for getting all the successful blood requests as per request id, into request card   (Status.js,RequestCard.js)
+
+Staff Page
+1. GET to get addresses/localities to find donors   (Donors.js)
+2. GET to search donors as per locality and blood group     (Donors.js)
+3. POST to add a new donor      (DonorModal.js)
+4. GET to get all localities and blood groups to assign to the new donor while adding donor (DonorModal.js)
+5. GET to get all details of donors while adding new blood unit donated     (ResultEntry.js)
+6. POST to add new blood donations      (ResultEntry.js)
+7. GET to get details of all the hositals to check for pending requests hospital wise   (PendingRequests.js)
+8. GET for getting all the pending blood requests as per request id, into request card. and handle pending click  (PendingRequests.js,RequestCard.js)
+9. GET to get all blood details component wise to display in repository table format    (RepositoryTable.js)
